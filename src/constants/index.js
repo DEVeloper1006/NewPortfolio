@@ -1,21 +1,16 @@
 import {
     mobile,
-    backend,
-    creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
     git,
     figma,
     docker,
-    meta,
     starbucks,
     tesla,
     shopify,
@@ -46,17 +41,19 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Photographer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
-      icon: backend,
+      title: "Front-End Developer",
+      icon: web
     },
     {
-      title: "Content Creator",
-      icon: creator,
-    },
+      title: "Data Analyst",
+      icon: web
+    }
+
+
   ];
   
   const technologies = [
@@ -73,16 +70,8 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
     },
     {
       name: "Tailwind CSS",
@@ -116,57 +105,42 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Project Team Member",
+      company_name: "McMaster Artificial Intelligence Society",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "October 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Collaborating on innovative AI/ML projects, enhancing my skills and knowledge in the field",
+        "Involved in a Syllabus AI Chat Bot Project For the McMaster AI Society Project Expo",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
+      title: "Mathematics Tutor",
+      company_name: "Tutorax",
       icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "July 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Delivered tailored tutoring sessions to students, catering to their unique requirements, academic objectives, and preferred learning approaches",
+        "Created individualized lesson plans and learning resources that cater to students' specific learning needs",
+        "Employed a range of teaching techniques to enhance comprehension and engagement, ensuring effective knowledge transfer",
+        "Maintained open and effective communication with students to address concerns, provide clarifications, and facilitate learning",
+        "Motivated students to excel academically through positive reinforcement and recognition of their achievements"
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
+      title: "Envelope Catcher",
+      company_name: "DCM Group",
       icon: shopify,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "May 2023 - June 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Transported envelopes produced by a printing machine to designated counters, as directed by the print operator, in preparation for shipping",
+        "Cleaned and maintained various operational stations, ensuring a higher standard of work hygiene and organization",
+        "Collaborated with the print operator to ensure a seamless process of transporting printed envelopes to the designated counters for shipment."
       ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    }
   ];
   
   const testimonials = [
@@ -198,17 +172,21 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "ProWeather",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "User-friendly weather web application to simplify weather information, which would be accessible by everyone, using the OpenWeatherMap REST API",
       tags: [
         {
-          name: "react",
+          name: "html",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "css",
           color: "green-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "yellow-text-gradient"
         },
         {
           name: "tailwind",
@@ -219,37 +197,16 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "OskarCuts Official Website",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A website developed for a local barber to make booking appointments more visually pleasing and efficient",
       tags: [
         {
-          name: "react",
+          name: "html",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
+          name: "javascript",
           color: "green-text-gradient",
         },
         {
@@ -257,9 +214,9 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: jobit,
       source_code_link: "https://github.com/",
-    },
+    }
   ];
   
   export { services, technologies, experiences, testimonials, projects };
