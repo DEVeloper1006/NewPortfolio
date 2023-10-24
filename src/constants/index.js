@@ -11,12 +11,6 @@ import {
     mongodb,
     git,
     figma,
-    docker,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
     threejs,
     macai,
     tutorax,
@@ -25,7 +19,9 @@ import {
     python,
     c,
     haskell,
-    dataAnalytics
+    dataAnalytics,
+    proweather,
+    oskarcuts
   } from "../assets";
   
   export const navLinks = [
@@ -201,19 +197,19 @@ import {
         },
         {
           name: "css",
-          color: "green-text-gradient",
+          color: "pink-text-gradient",
         },
         {
           name: "javascript",
-          color: "yellow-text-gradient"
+          color: "green-text-gradient"
         },
         {
           name: "tailwind",
-          color: "pink-text-gradient",
+          color: "red-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: proweather,
+      source_code_link: "https://github.com/DEVeloper1006/ProWeather",
     },
     {
       name: "OskarCuts Official Website",
@@ -233,8 +229,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: oskarcuts,
+      source_code_link: "https://github.com/DEVeloper1006/OCWebsite",
     }
   ];
   

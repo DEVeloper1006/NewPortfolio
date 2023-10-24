@@ -37,6 +37,8 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import macai from './company/macai.png';
+import proweather from './proweather.png';
+import oskarcuts from './oskarcuts.png';
 
 export {
   logo,
@@ -74,5 +76,7 @@ export {
   python,
   c,
   haskell,
-  dataAnalytics
+  dataAnalytics,
+  proweather,
+  oskarcuts
 };
