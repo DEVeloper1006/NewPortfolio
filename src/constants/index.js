@@ -1,5 +1,6 @@
+import { data } from "autoprefixer";
 import {
-    mobile,
+    camera,
     web,
     javascript,
     html,
@@ -17,6 +18,14 @@ import {
     carrent,
     jobit,
     threejs,
+    macai,
+    tutorax,
+    dcm,
+    java,
+    python,
+    c,
+    haskell,
+    dataAnalytics
   } from "../assets";
   
   export const navLinks = [
@@ -41,7 +50,7 @@ import {
     },
     {
       title: "Photographer",
-      icon: mobile,
+      icon: camera,
     },
     {
       title: "Front-End Developer",
@@ -49,9 +58,8 @@ import {
     },
     {
       title: "Data Analyst",
-      icon: web
+      icon: dataAnalytics
     }
-
 
   ];
   
@@ -97,28 +105,41 @@ import {
       icon: figma,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "java",
+      icon: java
     },
+    {
+      name: "python",
+      icon: python
+    },
+    {
+      name: 'c',
+      icon: c
+    },
+    {
+      name: 'haskell',
+      icon: haskell
+    }
   ];
   
   const experiences = [
     {
-      title: "Project Team Member",
-      company_name: "McMaster Artificial Intelligence Society",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "October 2023 - Present",
+      title: "Envelope Catcher",
+      company_name: "DCM Group",
+      icon: dcm,
+      iconBg: "#ffffff",
+      date: "May 2023 - June 2023",
       points: [
-        "Collaborating on innovative AI/ML projects, enhancing my skills and knowledge in the field",
-        "Involved in a Syllabus AI Chat Bot Project For the McMaster AI Society Project Expo",
+        "Transported envelopes produced by a printing machine to designated counters, as directed by the print operator, in preparation for shipping",
+        "Cleaned and maintained various operational stations, ensuring a higher standard of work hygiene and organization",
+        "Collaborated with the print operator to ensure a seamless process of transporting printed envelopes to the designated counters for shipment."
       ],
     },
     {
       title: "Mathematics Tutor",
       company_name: "Tutorax",
-      icon: tesla,
-      iconBg: "#E6DEDD",
+      icon: tutorax,
+      iconBg: "#ffffff",
       date: "July 2023 - Present",
       points: [
         "Delivered tailored tutoring sessions to students, catering to their unique requirements, academic objectives, and preferred learning approaches",
@@ -129,15 +150,14 @@ import {
       ],
     },
     {
-      title: "Envelope Catcher",
-      company_name: "DCM Group",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "May 2023 - June 2023",
+      title: "Project Team Member",
+      company_name: "McMaster Artificial Intelligence Society",
+      icon: macai,
+      iconBg: "#ffffff",
+      date: "October 2023 - Present",
       points: [
-        "Transported envelopes produced by a printing machine to designated counters, as directed by the print operator, in preparation for shipping",
-        "Cleaned and maintained various operational stations, ensuring a higher standard of work hygiene and organization",
-        "Collaborated with the print operator to ensure a seamless process of transporting printed envelopes to the designated counters for shipment."
+        "Collaborating on innovative AI/ML projects, enhancing my skills and knowledge in the field",
+        "Involved in a Syllabus AI Chat Bot Project For the McMaster AI Society Project Expo",
       ],
     }
   ];

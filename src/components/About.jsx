@@ -28,7 +28,7 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
       <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-          I'm a 2nd Year Honours Computer Science (Co-Op) Student @ McMaster University. I specialize in Front-End Development, where I am skilled in HTML, CSS and JavaScript alongside React and Next.JS. I'm also proficient in Python, C, C++, and Java alongside Functional Programming Languages like Haskell. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems! 
+          I'm a 2nd Year Honours Computer Science (Co-Op) Student @ McMaster University. I specialize in Front-End Development, where I am skilled in HTML, CSS and JavaScript alongside React and Next.JS. I'm also proficient in Python, C, and Java alongside Functional Programming Languages like Haskell. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems! 
       </motion.p>
       <div className='mt-20 flex flex-wrap gap-10 p'>
         {services.map((service, index) => (
